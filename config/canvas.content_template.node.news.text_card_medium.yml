@@ -11,8 +11,8 @@ content_entity_type_id: node
 content_entity_type_bundle: news
 content_entity_type_view_mode: text_card_medium
 component_tree:
-  b3f6a7b8-e9f0-4412-3456-901234567801:
-    uuid: b3f6a7b8-e9f0-4412-3456-901234567801
+  e261667d-ea89-56a9-8794-ab670e607717:
+    uuid: e261667d-ea89-56a9-8794-ab670e607717
     component_id: sdc.vartheme_bs5.card-text
     component_version: e029fefa26d20f4f
     inputs:
@@ -26,7 +26,7 @@ component_tree:
         sourceType: host-entity-url
         absolute: false
   001ce551-757c-4505-b343-0dafdd0e7eab:
-    parent_uuid: b3f6a7b8-e9f0-4412-3456-901234567801
+    parent_uuid: e261667d-ea89-56a9-8794-ab670e607717
     slot: content
     uuid: 001ce551-757c-4505-b343-0dafdd0e7eab
     component_id: sdc.vartheme_bs5.heading
@@ -37,7 +37,7 @@ component_tree:
         expression: ℹ︎␜entity:node:news␝title␞␟value
       level: 3
   a629756a-9e5f-4413-91ef-9120cb2f9ef1:
-    parent_uuid: b3f6a7b8-e9f0-4412-3456-901234567801
+    parent_uuid: e261667d-ea89-56a9-8794-ab670e607717
     slot: content
     uuid: a629756a-9e5f-4413-91ef-9120cb2f9ef1
     component_id: sdc.vartheme_bs5.date
