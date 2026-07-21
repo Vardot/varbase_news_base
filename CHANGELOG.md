@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Add a `/news` listing page to the News view: a Views `page_1` page display at path `news`, based on the `All news posts` block, that renders the news cards grid, the Search-by-keyword / Type / Industry exposed filters inline (`exposed_block: false`) and the full 12-per-page pager. The listing is now available out of the box and functionally testable, without a site template having to place the listing block on a page.
 
 ## [1.0.0-beta1] - 2026-07-10
 ### Changed
