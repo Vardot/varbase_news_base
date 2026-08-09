@@ -2,7 +2,7 @@
 
 # Varbase News Base
 [![pipeline status](https://git.drupalcode.org/project/varbase_news_base/badges/1.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_news_base/-/pipelines)
-[![Varbase News Base](https://img.shields.io/badge/Varbase%20News%20Base-1.0.0--beta1-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_news_base/-/pipelines?ref=1.0.0-beta1)
+[![Varbase News Base](https://img.shields.io/badge/Varbase%20News%20Base-1.0.0--alpha1-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_news_base/-/pipelines?ref=1.0.0-alpha1)
 [![Automated Functional Testing](https://git.drupalcode.org/project/varbase_project/badges/11.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_project/-/pipelines)
 
 A recipe to provide a news post content type, listing page, and related configuration for Varbase. Use News to publish news posts by different authors in the News section of the site.
@@ -73,6 +73,13 @@ The recipe configures news content permissions for:
 Add the recipe using composer:
 ```
 composer require drupal/varbase_news_base:~1.0.0
+```
+
+Or list it in a site template recipe:
+
+```yaml
+recipes:
+  - varbase_news_base
 ```
 
 Change directory to `/web` or `/docroot`
