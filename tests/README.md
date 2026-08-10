@@ -55,7 +55,7 @@ The `NN-NN-` prefix keeps the flat feature files ordered.
 ## Running
 
 ```bash
-npm install                 # webship-js brings Cucumber-js, Playwright, tsx
+npm install                 # varbase-e2e brings Cucumber-js, Playwright, tsx
 npx playwright install chromium
 
 # Point at your running site and run the whole suite:

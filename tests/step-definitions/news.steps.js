@@ -3,20 +3,20 @@
 const { When, Then } = require('@cucumber/cucumber');
 const assert = require('assert');
 
-const { smartSettle, friendly } = require('webship-js/tests/step-definitions/webship');
+const { smartSettle, friendly } = require('@vardot/varbase-e2e/tests/step-definitions/varbase-e2e');
 
 // -----------------------------------------------------------------------------
 // Custom steps for the Varbase News Base recipe.
 //
 // The News post content type ships a "Featured image" media_library widget (an
-// AJAX modal media picker) the generic webship-js steps cannot drive on their
+// AJAX modal media picker) the generic varbase-e2e steps cannot drive on their
 // own. These steps drive that widget, plus save / edit / delete steps so every
 // authoring scenario stays independent and removes what it creates, the "Type"
 // (Categories) exposed-filter select on the listing, and the listing result
 // summary assertion.
 //
 // The Title, Description and Categories fields are driven by the generic
-// webship-js form steps ("I fill in ...", "I select ... from ..."), so they are
+// varbase-e2e form steps ("I fill in ...", "I select ... from ..."), so they are
 // not re-implemented here.
 //
 // SAFETY: state-changing steps click ONLY specific, verified elements (never a
