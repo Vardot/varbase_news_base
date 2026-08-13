@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0-alpha2] - 2026-08-13
+### Fixed
+- Correct invalid `card-featured` prop values so the news featured cards render. All five
+  `canvas.content_template.node.news.featured_card_*` templates shipped prop values the
+  `card-featured` component does not allow — `content_vertical_alignment:
+  justify-content-center`, which is not in the `align-items-start` / `align-items-center` /
+  `align-items-end` enumeration, and `columns_sm_size: 0408` instead of `'04_08'` — so every
+  featured-card view mode rendered a Twig error instead of a card.
+### Changed
+- Match the Figma design in the `featured_card_medium` template: the date moves above the title,
+  the title uses `text_size: h5`, and the date uses `size: fs-6` with `text_color: text-muted`.
+- Switch the Varbase functional testing suite to Varbase E2E.
+- Update the version badge to `1.0.0-alpha2` in `README.md`.
+
 ## [1.0.0-alpha1] - 2026-08-09
 ### Added
 - Initial release of the Varbase News Base recipe: a News content type (Title, Description,
@@ -26,5 +40,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   constraints (`~4.0.0` / `~1.0.0`).
 - Update the version badge to `1.0.0-alpha1` in `README.md`.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.0-alpha1...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.0-alpha2...1.0.x
+[1.0.0-alpha2]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.0-alpha1...1.0.0-alpha2
 [1.0.0-alpha1]: https://git.drupalcode.org/project/varbase_news_base/-/tags/1.0.0-alpha1
