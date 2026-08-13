@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [1.0.0-alpha2] - 2026-08-13
+### Added
+- Add a Featured news posts block display to the News view: a `featured` block display on
+  `views.view.news` rendering the two latest news posts in the `featured_card_medium` view mode, in
+  a single column, with base theme (`vartheme_bs5:`) component ids so any consumer can place it.
 ### Fixed
 - Correct invalid `card-featured` prop values so the news featured cards render. All five
   `canvas.content_template.node.news.featured_card_*` templates shipped prop values the
