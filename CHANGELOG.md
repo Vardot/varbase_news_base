@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-09-08
+### Changed
+- Move the Varbase functional testing suite dependency to `^2.0.4`, the release published today. See [#3621415](https://www.drupal.org/i/3621415).
+- Set the recipe version to `1.0.1` and update the version badge in `README.md`.
+- Pin the five sibling dependencies to their stable released constraints for the release:
+  `varbase_components` `~4.0.0`, `varbase_content_base` `~1.0.0`, `varbase_media_base` `~1.0.0`,
+  `varbase_seo_base` `~1.0.0`, `varbase_workflow_base` `~1.0.0`.
+
 ## [1.0.0] - 2026-09-06
 ### Changed
 - Release Varbase News Base 1.0.0, the first stable release on the 1.0.x line.
@@ -64,7 +72,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   constraints (`~4.0.0` / `~1.0.0`).
 - Update the version badge to `1.0.0-alpha1` in `README.md`.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.0...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.1...1.0.x
+[1.0.1]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.0-beta1...1.0.0
 [1.0.0-beta1]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.0-alpha2...1.0.0-beta1
 [1.0.0-alpha2]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.0-alpha1...1.0.0-alpha2
