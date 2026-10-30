@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-10-29
+### Changed
+- Disable Drupal CMS telemetry in CI ([#3633839](https://www.drupal.org/i/3633839)).
+- Pin the `drupal/varbase_*` dependencies to the released `~1.0.0` and `~4.0.0` lines for the release.
+- Update the version badge to `1.0.5` in `README.md`.
+
 ## [1.0.4] - 2026-10-11
 ### Changed
 - Stop the functional testing CI job hiding composer failures: `composer require` is retried up to five times and then fails the job, and the separate `composer install` step is gone
@@ -107,7 +113,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   constraints (`~4.0.0` / `~1.0.0`).
 - Update the version badge to `1.0.0-alpha1` in `README.md`.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.4...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.5...1.0.x
+[1.0.5]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.4...1.0.5
 [1.0.4]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.3...1.0.4
 [1.0.3]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.2...1.0.3
 [1.0.2]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.1...1.0.2
