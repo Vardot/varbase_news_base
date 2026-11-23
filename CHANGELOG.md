@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.7] - 2026-11-23
+### Changed
+- Change the default PHP version to PHP 8.5 in the GitLab CI
+  ([#3639151](https://www.drupal.org/i/3639151)).
+- Pin the `drupal/varbase_*` dependencies to the released `~1.0.0` and `~4.0.0` lines for the release.
+- Update the version badge to `1.0.7` in `README.md`.
+
 ## [1.0.6] - 2026-11-12
 ### Changed
 - Update Node.js to `>= 24.0` in `package.json` and the GitLab CI
@@ -120,7 +127,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   constraints (`~4.0.0` / `~1.0.0`).
 - Update the version badge to `1.0.0-alpha1` in `README.md`.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.6...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.7...1.0.x
+[1.0.7]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.6...1.0.7
 [1.0.6]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.5...1.0.6
 [1.0.5]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.4...1.0.5
 [1.0.4]: https://git.drupalcode.org/project/varbase_news_base/-/compare/1.0.3...1.0.4
